@@ -2,7 +2,17 @@
 
 ## Overview
 
-The aim of this project is to build a Convolutional Neural Network (CNN) model for accurately detecting melanoma, a potentially deadly type of skin cancer. Early detection is crucial in reducing the mortality rate associated with melanoma. The dataset used for this project consists of 2357 images of malignant and benign oncological diseases, categorized into different classes.
+
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Dataset Information](#Dataset-Information)
+* [Model Findings](#Model-Findings)
+* [Conclusions](#conclusions)
+* [Acknowledgements](#acknowledgements)
+
+## General Information
+This project aims to build a Convolutional Neural Network (CNN) model for accurately detecting melanoma, a potentially deadly type of skin cancer. Early detection is crucial in reducing the mortality rate associated with melanoma. The dataset used for this project consists of 2357 images of malignant and benign oncological diseases, categorized into different classes.
 
 ## Technologies Used
 
@@ -26,7 +36,6 @@ The dataset includes images of the following diseases:
 The dataset was sourced from the International Skin Imaging Collaboration (ISIC), and images were categorized based on ISIC classification.
 
 ## Model Findings
-
 ### Model 1: Epochs 1-20
 The training and validation accuracy exhibit an upward trend, indicating the model is learning from the data.
 A significant gap between training and validation accuracy suggests potential overfitting, indicating that the model may be memorizing the training data.
@@ -42,6 +51,11 @@ Outperforming both Model 1 and Model 2.
 The combination of data augmentation and dropout layers significantly enhances model performance.
 Both training and validation loss consistently decrease, indicating robust learning and generalization.
 The model achieves a high validation accuracy, demonstrating successful learning and effective generalization to previously unseen data.
+
+## Conclusions
+The initial model showed a gradual improvement in accuracy but exhibited overfitting, suggesting a need for further optimization.
+Model 2, incorporating data augmentation, demonstrated enhanced performance but still requires refinement.
+Model 3, with data augmentation and dropout layers, outperformed the previous models, achieving high validation accuracy and effective generalization.
 
 ## Conclusion
 
