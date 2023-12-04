@@ -28,20 +28,20 @@ The dataset was sourced from the International Skin Imaging Collaboration (ISIC)
 ## Model Findings
 
 ### Model 1: Epochs 1-20
-The training and validation accuracy show an increasing trend, indicating the model is learning from the data.
-A significant gap between training and validation accuracy suggests potential overfitting.
-The training loss decreases, indicating improvement in minimizing differences between predicted and actual values on the training set.
-Overall, the initial accuracy is low, and there is room for improvement.
+The training and validation accuracy exhibit an upward trend, indicating the model is learning from the data.
+A significant gap between training and validation accuracy suggests potential overfitting, indicating that the model may be memorizing the training data.
+The training loss decreases, signifying an improvement in minimizing differences between predicted and actual values on the training set.
+The initial accuracy is relatively low, highlighting the need for improvement.
 ### Model 2: Epochs 1-20
-Incorporating dropout layers and data augmentation improves model performance.
-A noticeable gap between training and validation accuracy suggests overfitting.
-The training loss decreases steadily, but there are fluctuations in the validation loss.
-Data augmentation contributes to the model's ability to generalize to unseen data.
-### Model 3: Epochs 1-30
-Data augmentation and dropout layers effectively improve model performance.
-Both training and validation loss decrease consistently, indicating effective learning and generalization.
-The model achieves high validation accuracy, indicating successful learning and generalization to unseen data.
-
+While an improvement over Model 1, there is still room for enhancement.
+Incorporating data augmentation contributes to improved model performance.
+A noticeable gap between training and validation accuracy suggests potential overfitting.
+The training loss decreases steadily, but fluctuations in the validation loss are observed.
+### Model 1: Epochs 1-30
+Outperforming both Model 1 and Model 2.
+The combination of data augmentation and dropout layers significantly enhances model performance.
+Both training and validation loss consistently decrease, indicating robust learning and generalization.
+The model achieves a high validation accuracy, demonstrating successful learning and effective generalization to previously unseen data.
 
 ## Conclusion
 
