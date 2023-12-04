@@ -1,7 +1,7 @@
 # Melanoma Detection CNN - Case Study
 
 ## Overview
-
+Automated Melanoma Detection CNN project utilizing TensorFlow and Augmentor for early and accurate skin cancer diagnosis with a dataset of diverse oncological images.
 
 ## Table of Contents
 * [General Info](#general-information)
