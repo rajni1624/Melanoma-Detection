@@ -45,7 +45,7 @@ The model achieves a high validation accuracy, demonstrating successful learning
 
 ## Conclusion
 
-The final model, with data augmentation and dropout layers, achieved a validation accuracy of around 84%. The validation loss was 0.56, demonstrating effective learning and generalization. The Augmentor library was used to artificially generate additional samples, addressing the imbalance in the dataset.
+The final model, with data augmentation and dropout layers, achieved a validation high accuracy of 75%. The validation loss was 0.5, demonstrating effective learning and generalization. The Augmentor library was used to artificially generate additional samples, addressing the imbalance in the dataset.
 
 For detailed findings and insights from each model, refer to the corresponding sections above.
 
