@@ -53,11 +53,6 @@ Both training and validation loss consistently decrease, indicating robust learn
 The model achieves a high validation accuracy, demonstrating successful learning and effective generalization to previously unseen data.
 
 ## Conclusions
-The initial model showed a gradual improvement in accuracy but exhibited overfitting, suggesting a need for further optimization.
-Model 2, incorporating data augmentation, demonstrated enhanced performance but still requires refinement.
-Model 3, with data augmentation and dropout layers, outperformed the previous models, achieving high validation accuracy and effective generalization.
-
-## Conclusion
 
 The final model, with data augmentation and dropout layers, achieved a validation high accuracy of 75%. The validation loss was 0.5, demonstrating effective learning and generalization. The Augmentor library was used to artificially generate additional samples, addressing the imbalance in the dataset.
 
